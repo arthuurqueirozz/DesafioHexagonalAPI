@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Ports.Inbound
 {
-    public interface IAbrirContaUseCase
+    public interface IUscAbrirContaCorrente
     {
         Task<ContaCorrente> ExecutarTransacao();
     }
